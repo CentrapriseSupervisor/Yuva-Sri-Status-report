@@ -1,8 +1,9 @@
 import React from 'react'
+import HeroCarousel from './HeroCarousel'
 
 export default function Home(){
   return (
-    <section className="container hero-inner">
+    <section id="home" className="container hero-inner">
       <div className="hero">
         <div>
           <h1>Yuva Pranshala</h1>
@@ -15,7 +16,7 @@ export default function Home(){
         </div>
 
         <div className="hero-visual" aria-hidden>
-          <img src="https://via.placeholder.com/700x420?text=Yuva+Pranshala" alt="Yuva Pranshala" style={{width:'100%',height:'100%',objectFit:'cover'}} />
+          <HeroCarousel />
         </div>
       </div>
 
@@ -35,6 +36,16 @@ export default function Home(){
             <p>Older students learn sequencing and teaching basics.</p>
           </article>
         </div>
+      </section>
+
+      <section id="about" style={{marginTop:32}}>
+        <h2>About</h2>
+        <p style={{color:'#55606a'}}>Yuva Pranshala supports mindful growth through playful, age-appropriate yoga and breathing exercises. Our tutors focus on safety, alignment, and emotional awareness.</p>
+      </section>
+
+      <section id="contact" style={{marginTop:32}}>
+        <h2>Contact</h2>
+        <p style={{color:'#55606a'}}>Email us at <a href="mailto:info@yuva-pranshala.example">info@yuva-pranshala.example</a> or use the contact form (coming soon).</p>
       </section>
     </section>
   )
