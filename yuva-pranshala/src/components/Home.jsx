@@ -43,6 +43,24 @@ export default function Home(){
         <p style={{color:'#55606a'}}>Yuva Pranshala supports mindful growth through playful, age-appropriate yoga and breathing exercises. Our tutors focus on safety, alignment, and emotional awareness.</p>
       </section>
 
+      <section id="testimonials" style={{marginTop:32}}>
+        <h2>Testimonials</h2>
+        <div className="card-grid" style={{marginTop:12}}>
+          <article className="card">
+            <p>"My daughter has gained so much confidence through the yoga classes. The instructors are amazing!"</p>
+            <cite>- Parent of a 10-year-old student</cite>
+          </article>
+          <article className="card">
+            <p>"The mindful movement class helped me focus better in school. I feel calmer and more balanced."</p>
+            <cite>- 12-year-old student</cite>
+          </article>
+          <article className="card">
+            <p>"As a teacher, I appreciate how the leadership program builds responsibility and empathy."</p>
+            <cite>- Yoga instructor</cite>
+          </article>
+        </div>
+      </section>
+
       <section id="contact" style={{marginTop:32}}>
         <h2>Contact</h2>
         <p style={{color:'#55606a'}}>Email us at <a href="mailto:info@yuva-pranshala.example">info@yuva-pranshala.example</a> or use the contact form (coming soon).</p>
