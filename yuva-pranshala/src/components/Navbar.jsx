@@ -4,6 +4,7 @@ const LINKS = [
   {label:'Home', href:'#home'},
   {label:'Classes', href:'#classes'},
   {label:'About', href:'#about'},
+  {label:'Testimonials', href:'#testimonials'},
   {label:'Contact', href:'#contact'}
 ]
 
